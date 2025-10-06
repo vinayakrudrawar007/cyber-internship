@@ -1,0 +1,6 @@
+{
+  "algo": "sha256",
+  "files": {
+    "sample.txt": "af9df90289b05f868f3466e248eedaf3968f0b7b1120f4ac06129ab0f951dc91"
+  }
+}

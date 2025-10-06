@@ -1,0 +1,15 @@
+﻿<!doctype html>
+<html>
+<head><title>Demo Vuln</title></head>
+<body>
+<h1>Demo Vulnerable Page</h1>
+<!-- reflected GET param -->
+<p>Search result: <span id="q">{q}</span></p>
+
+<form action="/submit" method="post">
+  <label>Name: <input name="name" value=""></label>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

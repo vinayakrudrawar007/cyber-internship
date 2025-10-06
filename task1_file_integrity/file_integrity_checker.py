@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-Simple File Integrity Checker
-Usage:
   python file_integrity_checker.py baseline ./folder baseline.json
   python file_integrity_checker.py compare ./folder baseline.json
 """
@@ -49,6 +47,7 @@ def compare_baseline(folder, baseline_file):
     for f in added: print("  +", f)
     print("Removed:", len(removed))
     for f in removed: print("  -", f)
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
